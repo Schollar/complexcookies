@@ -1,3 +1,21 @@
-@import 'global';
-@import 'header';
-@import 'footer';
+@import "global";
+@import "header";
+@import "footer";
+
+body {
+    display: grid;
+    place-items: center;
+    row-gap: 50px;
+}
+
+#menu_parent {
+    display: grid;
+    position: relative;
+    top: 25%;
+    place-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
