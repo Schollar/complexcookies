@@ -2,4 +2,27 @@ img {
   width: 200px;
   height: 200px;
 }
+
+#page_container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  row-gap: 50px;
+}
+
+#selection_container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.article_container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border: 1px solid black;
+  width: 250px;
+}
 /*# sourceMappingURL=newpage.css.map */

@@ -2,3 +2,20 @@ img {
     width: 200px;
     height: 200px;
 }
+#page_container {
+    display: grid;
+    place-items: center;
+    row-gap: 50px;
+}
+
+#selection_container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.article_container {
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+    width: 250px;
+}
