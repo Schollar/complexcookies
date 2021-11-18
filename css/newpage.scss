@@ -2,20 +2,31 @@ img {
     width: 200px;
     height: 200px;
 }
-#page_container {
-    display: grid;
-    place-items: center;
-    row-gap: 50px;
-}
+
+// #page_container {
+//     display: grid;
+//     place-items: center;
+//     row-gap: 50px;
+// }
 
 #selection_container {
     display: grid;
+    row-gap: 50px;
+    position: relative;
+    top: 15vh;
     place-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
 .article_container {
     display: grid;
     place-items: center;
     border: 1px solid black;
+    border-radius: 10px;
     width: 250px;
+}
+#clear_cookies {
+    position: fixed;
+    top: 0;
+    right: 0;
 }
